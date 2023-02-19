@@ -9,6 +9,6 @@ void bar()
 int main()
 {
     std::cout << "Ates!" << std::endl;
-    std::cout << "Sema!" << std::endl;
+    std::cout << "Semaaaa!" << std::endl;
     bar();
 }
