@@ -12,6 +12,8 @@ int main()
    
 
     std::cout << "Mina!" << std::endl;
+    std::cout << "Mina!" << std::endl;
+    std::cout << "Mina!" << std::endl;
 
 }
 
