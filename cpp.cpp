@@ -17,3 +17,7 @@ int main()
 
 }
 
+class YourClass{
+    private:
+    int m_x {};
+};
