@@ -3,6 +3,7 @@
 void foo()
 {
     std::cout << "Leylaaa!" << std::endl;    
+    std::cout << "Sema!" << std::endl;    
 }
 int main()
 {
