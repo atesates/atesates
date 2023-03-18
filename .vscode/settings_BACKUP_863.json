@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "ostream": "cpp",
+<<<<<<< HEAD
+        "*.tcc": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "istream": "cpp",
+        "stdexcept": "cpp",
+        "system_error": "cpp",
+        "typeinfo": "cpp"
+=======
+        "iostream": "cpp"
+>>>>>>> a7c96b4 (barFunctionAdded)
+    }
+}

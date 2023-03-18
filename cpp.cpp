@@ -1,4 +1,16 @@
 #include <iostream>
+#include <string>
+
+namespace Test
+{
+    struct Foo
+    {
+        static std::string DoSomething(int i, std::string s)
+        {
+           return __func__ ; // Output: DoSomething
+        }
+    };
+}
 
 void bar()
 {
@@ -34,5 +46,8 @@ int main()
     std::cout << "myclass.flag= " << myclass.flag << std::endl;
  
 
+    std::string s = Test::Foo::DoSomething(42, "Hello");
+   if("DoSomething"==Test::Foo::DoSomething(42, "Hello"))
+    std::cout << "sq= " << s << std::endl;
 
 }
