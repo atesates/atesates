@@ -2,7 +2,8 @@
 
 void foo()
 {
-    std::cout << "Leylaaa!" << std::endl;    
+    std::cout << "Leylaaa!" << std::endl; 
+	std::cout << "Merve!" << std::endl;    
 }
 int main()
 {
