@@ -1,0 +1,3 @@
+[submodule "submoules/RSatesates"]
+	path = submoules/RSatesates
+	url = https://github.com/atesates/RSatesates_submodule.git
